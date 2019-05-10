@@ -8,7 +8,7 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -27,5 +27,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@chilifrog/reactive-tools": "^1.0.8",
+    "@chilifrog/sharedb": "^3.0.1",
+    "@chilifrog/sharedb-mongo": "^3.0.0",
+    "@houshuang/react-quill": "^1.3.2",
+    "@material-ui/core": "^3.9.3",
+    "@minervaproject/ot-json0": "^1.1.2",
+    "@minervaproject/quill-cursors": "^2.1.0",
+    "@minervaproject/rich-text": "^3.1.0",
+    "@teamwork/websocket-json-stream": "^2.0.0",
+    "encoding": "^0.1.12",
+    "jest-haste-map": "^24.8.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.2.4",
+    "node-pre-gyp": "^0.13.0",
+    "reconnectingwebsocket": "^1.0.0"
   }
 }
